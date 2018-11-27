@@ -2,6 +2,7 @@
 import os
 
 current_path = "C:\\Users\\Hyperion\\Documents\\Create_dataset\\bin\\"
+resolution = 24
 
 #Match les caracères avec la liste pré-définie
 def found(liste, name):
@@ -32,7 +33,7 @@ def extract(filettf, ttf):
         #print(name)
         if i > 2 and found(liste, name):
             filename = name + ".bmp"
-            F[name].export(filename, 24, 1)
+            F[name].export(filename, resolution, 1)
             move_file(filename, ttf)
         i += 1
 
