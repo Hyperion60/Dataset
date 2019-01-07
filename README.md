@@ -1,5 +1,6 @@
 # Dataset
-Dataset pour entrainer un réseau de neurone sur des caractères imprimés
+Dataset pour entrainer un réseau de neurone sur des caractères imprimés.
+**Ne fonctionne que sur Windows**
 
 Ce programme permet d'exporter les caractères contenus dans une font en image bitmap (.bmp) carré de la taille de votre choix.
 
